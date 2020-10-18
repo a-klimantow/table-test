@@ -1,7 +1,7 @@
 import React from "react"
 
 import { AppContext } from "./context"
-import { Table, TableHead, TableBody } from "./components"
+import { Table, TableHead, TableBody, CountRow } from "./components"
 import { useApp } from "./hooks"
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
         <TableHead />
         <TableBody />
       </Table>
+      <CountRow />
     </AppContext.Provider>
   )
 }
